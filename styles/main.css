@@ -21,8 +21,12 @@
 }
 
 .quaternary-color{
-    color: #4E47FF;
+    color: #cfcedf;
     opacity: 0.1;
+}
+
+body{
+    background-color: #eae9f5;
 }
 
 /* Header and Nav styles */
@@ -124,4 +128,68 @@
 .main-body2-description2{
     font-size: 20px;
     font-weight: 400;
+}
+
+/* Main Body 3 styles */
+
+.main-body3{
+    margin-top: 137px;
+}
+
+.main-body3-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-body3-cards{
+    padding: 15px;  
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.main-body3-all-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-body3-stars{
+    display: flex;
+    gap: 4px;
+}
+
+.main-body3-stars img{
+    width: 24px;
+    height: 24px;
+}
+
+.main-body3-title1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-body3-avatar-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.main-body3-avatar-info img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.main-body3-info-description{
+    color: #757575;
+    font-weight: bold;
+}
+
+.main-body3-info-description1{
+    color: #757575;
 }
