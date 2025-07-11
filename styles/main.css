@@ -26,7 +26,7 @@
 }
 
 body{
-    background-color: #eae9f5;
+    background-color: #f2f1fd;
 }
 
 /* Header and Nav styles */
@@ -192,4 +192,37 @@ body{
 
 .main-body3-info-description1{
     color: #757575;
+}
+
+
+/* Main Body 4 styles */
+
+.main-body4{
+    margin-top: 137px;
+    text-align: center;
+    background-color: white;
+    border-radius: 14px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.main-body4-title{
+    padding: 71px 0 0 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main-body4-description{
+    color: black;
+    opacity: 0.5;
+    margin-top: -20px;
+}
+
+.main-body4 button{
+    margin-bottom: 20px;
+}
+
+.main-body4 img{
+    border-radius: 48px;
+    margin-bottom: 71px;
 }
