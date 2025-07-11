@@ -1,6 +1,6 @@
 /* Shared styles */
 .primary-font{
-    font-family: 'Inter', sans-serif
+    font-family: 'Inter', sans-serif;
 }
 
 .secondary-font{
@@ -97,6 +97,7 @@ body{
 }
 
 /* Main Body 2 styles */
+
 .main-body2 {
     margin-top: 116px;
     margin-left: 141px;
@@ -225,4 +226,56 @@ body{
 .main-body4 img{
     border-radius: 48px;
     margin-bottom: 71px;
+}
+
+/* Main Body 5 styles */
+
+.main-body5{
+    margin-top: 92px;
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+}
+
+.main-body5-text1{
+    font-size: 97px;
+    font-weight: bolder;
+    margin-top: 120px;
+}
+
+.main-body5 form label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form label{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+form input, form textarea{
+    width: 55%;
+    padding: 20px 190px 20px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+textarea::placeholder, input::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.secondary-btn{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    padding: 19px 201px 19px 201px;
+    border-style: none;
+    margin-top: 19px;
 }
